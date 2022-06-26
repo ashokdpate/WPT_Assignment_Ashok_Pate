@@ -10,7 +10,7 @@ const connection=mysql.createConnection({
     port:3306
 });
 
-connection.query("insert into item values(?,?,?,?) ",[5,"siddhesh",96,"topper5"],(error,res)=>{
+connection.query("insert into item values(?,?,?,?) ",[5,"Ashok",30,"topper7"],(error,res)=>{
     if(error){
         console.log("Error...............");
     }
