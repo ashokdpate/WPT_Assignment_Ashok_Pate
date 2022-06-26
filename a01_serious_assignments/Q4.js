@@ -17,10 +17,10 @@ class Logic {
 
   constructor() {
     this.empDetails = [{empNo:111,empName:"Shubhangi",empEmail:"aaa@xyz.com",empDeptid:1},
-    {empNo:112,empName:"Siddhant",empEmail:"bbb@xyz.com",empDeptid:1},
-    {empNo:113,empName:"Siddhesh",empEmail:"ccc@xyz.com",empDeptid:2},
-    {empNo:114,empName:"Snehal",empEmail:"ddd@xyz.com",empDeptid:3},
-    {empNo:115,empName:"Sohel",empEmail:"eee@xyz.com",empDeptid:1}];
+    {empNo:112,empName:"Ashok",empEmail:"bbb@xyz.com",empDeptid:1},
+    {empNo:113,empName:"Anuj",empEmail:"ccc@xyz.com",empDeptid:2},
+    {empNo:114,empName:"Anuradha",empEmail:"ddd@xyz.com",empDeptid:3},
+    {empNo:115,empName:"Sonam",empEmail:"eee@xyz.com",empDeptid:1}];
   }
 
   empAlreadyExists(empno) {
