@@ -10,7 +10,7 @@ const connection=mysql.createConnection({
     port:3306
 });
 
-connection.query("update item set itemname=? where itemno=? ",["siddhant",1],(error,res)=>{
+connection.query("update item set itemname=? where itemno=? ",["Ashok",1],(error,res)=>{
     if(error){
         console.log("Error...............");
     }
